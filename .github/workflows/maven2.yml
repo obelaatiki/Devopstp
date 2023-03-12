@@ -30,6 +30,6 @@ jobs:
       with: 
           status: ${{ job.status }}
           steps: ${{ toJson(steps) }}
-          channel: '#tp_devops_channel'
-          message: branch Successfully ..
+          channel: '#tpdevopschannel'
+          message: branch Successfully Omar
       if: always()
